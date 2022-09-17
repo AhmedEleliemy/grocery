@@ -3,3 +3,5 @@ Flask_SQLAlchemy==2.5.1
 Markdown==3.4.1
 marshmallow==3.17.1
 marshmallow_sqlalchemy==0.28.1
+pytest==6.2.3
+SQLAlchemy==1.4.7
