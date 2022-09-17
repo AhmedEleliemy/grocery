@@ -1,5 +1,11 @@
 import markdown
-from extensions import application_root_directory
+from app.extensions import application_root_directory
+from flask import Blueprint
+from app.routes import apis
+
+#defining apis as blueprint and register it
+apis=Blueprint('apis', __name__)
+
 #default will render the readme file
 @apis.route('/')
 def index():
