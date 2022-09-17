@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  grocery_app:
+    build: .
+    volumes:
+    - .:/usr/apps/grocery/
+    ports:
+      - 8080:8080
+    command: waitress-serve --host 0.0.0.0 --call "app:create_app" 
