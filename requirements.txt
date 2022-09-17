@@ -5,3 +5,4 @@ marshmallow==3.17.1
 marshmallow_sqlalchemy==0.28.1
 pytest==6.2.3
 SQLAlchemy==1.4.7
+waitress==2.1.2
